@@ -25,7 +25,7 @@
 
 ## Введение
 
-EasyQQ - это инструмент для повышения удобства использования Tencent QQ, основанный на [NoneBot framework](https://github.com/nonebot/nonebot) и [OneBot standard](https://github.com/howmanybots/onebot)standard (ранее CQHTTP). Он основан на NoneBot framework и OneBot standard (ранее CQHTTP), и может легко помочь пользователям вызывать различные функции через сообщения чата и повысить удовольствие от общения.
+EasyQQ - это инструмент для повышения удобства использования Tencent QQ, основанный на [NoneBot framework](https://github.com/nonebot/nonebot) и [OneBot standard](https://github.com/howmanybots/onebot) standard (ранее CQHTTP). Он основан на NoneBot framework и OneBot standard (ранее CQHTTP), и может легко помочь пользователям вызывать различные функции через сообщения чата и повысить удовольствие от общения.
 
 ## Характеристики
 
