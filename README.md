@@ -1,22 +1,10 @@
-```html
 <p align="center">
  <img width="100px" src="https://github.com/NekoSilverFox/EasyQQ/blob/main/docs/pic/logo.svg" align="center" alt="EasyQQ" />
- <h2 align="center">EasyQQ</h2>
+ <h1 align="center">EasyQQ</h2>
  <p align="center">让聊天更有趣!</p>
 </p>
 
-  <p align="center">
-    [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
-    [![PyPI](https://img.shields.io/pypi/v/nonebot.svg)](https://pypi.python.org/pypi/nonebot)
-    ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-    [![standardize](https://img.shields.io/badge/standardize-OneBot%20v10%2C%20v11-orange)](https://github.com/botuniverse/onebot)
-    [![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
-  </p>
-```
-
-
-
-# EasyQQ
+<div align=center>
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/nonebot.svg)](https://pypi.python.org/pypi/nonebot)
@@ -24,7 +12,7 @@
 [![standardize](https://img.shields.io/badge/standardize-OneBot%20v10%2C%20v11-orange)](https://github.com/botuniverse/onebot)
 [![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
 
-
+<div align=left>
 
 ## 简介
 
