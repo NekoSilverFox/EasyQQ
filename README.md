@@ -1,8 +1,9 @@
 <p align="center">
  <img width="100px" src="https://github.com/NekoSilverFox/EasyQQ/blob/main/docs/pic/logo.svg" align="center" alt="EasyQQ" />
  <h1 align="center">EasyQQ</h2>
- <p align="center">让聊天更有趣!</p>
+ <p align="center">Сделайте общение в чате веселее!</p>
 </p>
+
 
 <div align=center>
 
@@ -18,36 +19,33 @@
 
 <div align=left>
 
-## 开发者
+## Наша команда
 
-- NekoSilverfox (Peter the Great St.Petersburg Polytechnic University)
-- liyijiadou2020 (Peter the Great St.Petersburg Polytechnic University)
+- Мэн Цзянин, группа 3530904/90102 (СПбПУ)
 - Miracle-Milk (Keimyung University)
 
-## 简介
+## Введение
 
-EasyQQ 是一个增加腾讯QQ易用性的工具，其基于 [NoneBot](https://github.com/nonebot/nonebot) 框架和 [OneBot 标准](https://github.com/howmanybots/onebot)（原 CQHTTP） ，可以方便的帮助用户通过聊天消息的方式调用各种功能，并提升聊天的趣味性。
+EasyQQ - это инструмент для повышения удобства использования Tencent QQ, основанный на [NoneBot framework](https://github.com/nonebot/nonebot) и [OneBot standard](https://github.com/howmanybots/onebot)standard (ранее CQHTTP). Он основан на NoneBot framework и OneBot standard (ранее CQHTTP), и может легко помочь пользователям вызывать различные функции через сообщения чата и повысить удовольствие от общения.
 
-## 功能
+## Характеристики
 
-- 对于普通用户
-  - 统计投票功能
-  - 禁言自己
-  - 签到
-  - 提问
+- Для постоянных пользователей
+  - Статистическая функция голосования
+  - Запретить себе
+  - Войти
+  - Задать вопрос
+- Для администраторов групповых чатов (дополнительная функция)
+  - Отключить групповые сообщения
+  - Запрет определенных пользователей
+- Забавные особенности
+  - Автоматический "повтор"
+- Функция простоты использования
+  - Обнаружение чувствительных слов (автоматическое предупреждение)
+  - Поиск по гороскопу
 
-- 对于群聊管理员（附加功能）
-  - 禁用群消息
-  - 禁言特定用户
+## Вклад
 
-- 趣味性功能
-  - 自动“复读”
-- 易用性功能
-  - 敏感词检测（自动警告）
-  - 运势查询
+Если вы обнаружите какие-либо проблемы в процессе использования, вы можете отправить [issue](https://github.com/NekoSilverFox/EasyQQ/issues) или внести свои собственные изменения в fork и отправить pull request.
 
-## 贡献
-
-如果你在使用过程中发现任何问题，可以[提交 issue](https://github.com/NekoSilverFox/EasyQQ/issues) 或自行 fork 修改后提交 pull request。
-
-如果你要提交 pull request，请确保你的代码风格和项目已有的代码保持一致（遵循 [PEP 8](https://www.python.org/dev/peps/pep-0008/)），变量命名清晰，有适当的注释。
+Если вы подаете запрос на перенос, пожалуйста, убедитесь, что стиль вашего кода соответствует существующему коду проекта (в соответствии с [PEP 8](https://www.python.org/dev/peps/pep-0008/)), что переменные четко названы, и что они правильно прокомментированы.
