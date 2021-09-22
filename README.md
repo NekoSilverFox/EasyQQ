@@ -4,7 +4,6 @@
  <p align="center">Сделайте общение в чате веселее!</p>
 </p>
 
-
 <div align=center>
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
@@ -14,7 +13,7 @@
 [![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
 
 <p align="center">
-    <a href="/docs/readme_cn.md">简体中文</a>
+    <a href="/docs/README_cn.md">简体中文</a>
 </p>
 
 <div align=left>
