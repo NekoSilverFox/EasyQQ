@@ -15,8 +15,12 @@
 <p align="center">
     <a href="/docs/readme_cn.md">简体中文</a>
 </p>
- 
+
 <div align=left>
+## 开发者
+
+- NekoSilverfox (Peter the Great St.Petersburg Polytechnic University)
+- liyijiadou2020 (Peter the Great St.Petersburg Polytechnic University)
 
 ## 简介
 
