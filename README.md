@@ -47,6 +47,6 @@ EasyQQ 是一个增加腾讯QQ易用性的工具，其基于 [NoneBot](https://g
 
 ## 贡献
 
-如果你在使用过程中发现任何问题，可以[提交 issue](https://github.com/nonebot/nonebot/issues/new) 或自行 fork 修改后提交 pull request。
+如果你在使用过程中发现任何问题，可以[提交 issue](https://github.com/NekoSilverFox/EasyQQ/issues) 或自行 fork 修改后提交 pull request。
 
 如果你要提交 pull request，请确保你的代码风格和项目已有的代码保持一致（遵循 [PEP 8](https://www.python.org/dev/peps/pep-0008/)），变量命名清晰，有适当的注释。
