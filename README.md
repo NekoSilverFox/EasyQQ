@@ -12,6 +12,10 @@
 [![standardize](https://img.shields.io/badge/standardize-OneBot%20v10%2C%20v11-orange)](https://github.com/botuniverse/onebot)
 [![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
 
+<p align="center">
+    <a href="/docs/readme_cn.md">简体中文</a>
+</p>
+ 
 <div align=left>
 
 ## 简介
