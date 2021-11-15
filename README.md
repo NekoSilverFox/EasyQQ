@@ -1,10 +1,11 @@
 <p align="center">
  <img width="100px" src="https://github.com/NekoSilverFox/EasyQQ/blob/main/docs/pic/logo.svg" align="center" alt="EasyQQ" />
  <h1 align="center">EasyQQ</h2>
- <p align="center">Сделайте общение в чате веселее!</p>
+ <p align="center">Be happy!</p>
 </p>
 
 <div align=center>
+ 
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 [![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
