@@ -1,19 +1,16 @@
 <p align="center">
  <img width="100px" src="https://github.com/NekoSilverFox/EasyQQ/blob/main/docs/pic/logo.svg" align="center" alt="EasyQQ" />
  <h1 align="center">EasyQQ</h2>
- <p align="center">让聊天更有趣!</p>
+ <p align="center">Сделайте общение в чате веселее!</p>
 </p>
 
 <div align=center>
-
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/nonebot.svg)](https://pypi.python.org/pypi/nonebot)
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-[![standardize](https://img.shields.io/badge/standardize-OneBot%20v10%2C%20v11-orange)](https://github.com/botuniverse/onebot)
-[![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
+[![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
 
 <p align="center">
-    <a href="/docs/readme_cn.md">简体中文</a>
+    <a href="/docs/README_cn.md">简体中文</a>
 </p>
 
 <div align=left>
@@ -26,25 +23,11 @@
 
 ## 简介
 
-EasyQQ 是一个增加腾讯QQ易用性的工具，其基于 [NoneBot](https://github.com/nonebot/nonebot) 框架和 [OneBot 标准](https://github.com/howmanybots/onebot)（原 CQHTTP） ，可以方便的帮助用户通过聊天消息的方式调用各种功能，并提升聊天的趣味性。
+
 
 ## 功能
 
-- 对于普通用户
-  - 统计投票功能
-  - 禁言自己
-  - 签到
-  - 提问
 
-- 对于群聊管理员（附加功能）
-  - 禁用群消息
-  - 禁言特定用户
-
-- 趣味性功能
-  - 自动“复读”
-- 易用性功能
-  - 敏感词检测（自动警告）
-  - 运势查询
 
 ## 贡献
 

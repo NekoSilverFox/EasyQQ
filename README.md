@@ -5,12 +5,9 @@
 </p>
 
 <div align=center>
-
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/nonebot.svg)](https://pypi.python.org/pypi/nonebot)
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
-[![standardize](https://img.shields.io/badge/standardize-OneBot%20v10%2C%20v11-orange)](https://github.com/botuniverse/onebot)
-[![framework](https://img.shields.io/badge/framework-NoneBot-orange)](https://github.com/nonebot/nonebot)
+[![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
 
 <p align="center">
     <a href="/docs/README_cn.md">简体中文</a>
@@ -26,23 +23,11 @@
 
 ## Введение
 
-EasyQQ - это инструмент для повышения удобства использования Tencent QQ, основанный на [NoneBot framework](https://github.com/nonebot/nonebot) и [OneBot standard](https://github.com/howmanybots/onebot) standard (ранее CQHTTP). Он  может легко помочь пользователям вызывать различные функции через сообщения чата и повысить удовольствие от общения.
+
 
 ## Характеристики
 
-- Для постоянных пользователей
-  - Статистическая функция голосования
-  - Запретить себе
-  - Войти
-  - Задать вопрос
-- Для администраторов групповых чатов (дополнительная функция)
-  - Отключить групповые сообщения
-  - Запрет определенных пользователей
-- Забавные особенности
-  - Автоматический "повтор"
-- Функция простоты использования
-  - Обнаружение чувствительных слов (автоматическое предупреждение)
-  - Поиск по гороскопу
+- 
 
 ## Вклад
 
