@@ -3,4 +3,4 @@
     2. 提供游戏的 相关工具
 """
 
-class GameSprite():
+# class GameSprite():

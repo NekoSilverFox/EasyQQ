@@ -2,4 +2,4 @@
 敌机
 """
 
-class Enemy():
+# class Enemy():

@@ -2,4 +2,4 @@
 子弹
 """
 
-class Bullet():
+# class Bullet():

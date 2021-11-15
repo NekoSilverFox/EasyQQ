@@ -2,4 +2,4 @@
 玩家控制的飞机（英雄）
 """
 
-class Hero():
+# class Hero():
