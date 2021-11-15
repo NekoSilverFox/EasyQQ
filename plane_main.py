@@ -5,6 +5,7 @@
     3. 启动游戏
 """
 
+# 用于控制游戏各功能
 class PlaneGame():
     # 初始化
     def __init__(self):
@@ -14,8 +15,8 @@ class PlaneGame():
     def start_game(self):
         print("游戏开始...")
 
-    # 事件监听
-    def __event_handler(self):
+    # 时钟
+    def clock(self, time):
         pass
 
 # 【程序入口】 主函数
