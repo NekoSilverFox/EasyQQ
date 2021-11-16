@@ -8,15 +8,15 @@
 """ 用于控制游戏各功能 """
 class PlaneGame():
     def __init__(self):
-    """ 初始化 """
+        """ 初始化 """
         print("游戏初始化...")
 
     def start_game(self, tmp):
-    """ 开始游戏 """
+        """ 开始游戏 """
         pass
 
     def clock(self, time):
-    """ 时钟 """
+        """ 时钟 """
         pass
 
 """ 【程序入口】 主函数 """
