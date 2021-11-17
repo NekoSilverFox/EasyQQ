@@ -5,20 +5,19 @@
     3. 启动游戏
 """
 
-""" 用于控制游戏各功能 """
-class PlaneGame():
+
+class PlaneGame:
+    """ 用于配置及初始化游戏内容 """
     def __init__(self):
         """ 初始化 """
         print("游戏初始化...")
 
     def start_game(self, tmp):
         """ 开始游戏 """
-        pass
 
     def clock(self, time):
         """ 时钟 """
-        pass
 
-""" 【程序入口】 主函数 """
+
 if __name__ == '__main__':
     print("游戏初始化...")
