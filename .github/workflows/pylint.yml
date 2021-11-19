@@ -23,4 +23,4 @@ jobs:
         
     - name: Analysing the code with pylint
       run: |
-        pylint -E `ls -R|grep .py$|xargs`
+        pylint -E --disable=E0401 `ls -R|grep .py$|xargs`
