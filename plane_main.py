@@ -4,7 +4,17 @@
     2. 创建 游戏对象
     3. 启动游戏
 """
+import sys
 
+import pygame
+from plane_sprites import GameSprite
+from background import Background
+
+# 常量区
+WIDTH = 480
+HEIGHT = 700
+SCREEN_RECT = pygame.Rect(0, 0, WIDTH, HEIGHT)
+FRAME_PER_SEC = 60  # 每秒刷新帧率
 
 class PlaneGame:
     """ 用于配置及初始化游戏内容 """
@@ -12,12 +22,76 @@ class PlaneGame:
         """ 初始化 """
         print("游戏初始化...")
 
-    def start_game(self, tmp):
-        """ 开始游戏 """
+        print("设置游戏窗口中...")
+        self.__screen = pygame.display.set_mode(SCREEN_RECT.size)
 
-    def clock(self, time):
-        """ 时钟 """
+        print("创建游戏时钟中...")
+        self.__clock = pygame.time.Clock()
+
+        print("调用私有方法，创建精灵和精灵组...")
+        self.__creat_sprites()
+        pass
+
+    def start_game(self):
+        """ 开始游戏 """
+        print("游戏开始...")
+        while True:
+            # 设置刷新帧率
+            self.__clock.tick(FRAME_PER_SEC)
+
+            # 事件监听
+            self.__event_handler()
+
+            # 碰撞检测
+            self.__check_collide()
+
+            # 更新/绘制精灵
+            self.__update_sprites()
+
+            # 更新显示
+            pygame.display.update()
+        pass
+
+    def __screen(self, wide, height):
+        """屏幕"""
+
+    def __clock(self, time):
+        """游戏时钟"""
+
+    def __creat_sprites(self):
+        """精灵创建"""
+        bg1 = Background()
+        bg2 = Background(True)
+        self.back_group = pygame.sprite.Group(bg1, bg2)
+
+    @classmethod
+    def __event_handler(self):
+        """事件监听"""
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                PlaneGame.__game_over()  # 使用类名的方式调用静态方法
+
+    def __check_collide(self):
+        """碰撞检测"""
+        pass
+
+    def __update_sprites(self):
+        """更新精灵组"""
+
+        self.back_group.update()
+        self.back_group.draw(self.__screen)
+
+    @staticmethod
+    def __game_over():
+        """游戏结束"""
+        print("游戏结束...")
+        pygame.quit()
+        sys.exit()
 
 
 if __name__ == '__main__':
-    print("游戏初始化...")
+    # 创建游戏对象
+    game = PlaneGame()
+
+    # 开始游戏
+    game.start_game()
