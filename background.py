@@ -2,11 +2,12 @@
 游戏背景
 """
 
+import plane_sprites
 import plane_main
 PATH_BACKGROUND = "./images/background.png"
 
 
-class Background(plane_main.GameSprite):
+class Background(plane_sprites.GameSprite):
     """游戏背景精灵"""
 
     def __init__(self, is_alt=False):
