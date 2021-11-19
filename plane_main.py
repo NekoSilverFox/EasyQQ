@@ -30,7 +30,6 @@ class PlaneGame:
 
         print("调用私有方法，创建精灵和精灵组...")
         self.__creat_sprites()
-        pass
 
     def start_game(self):
         """ 开始游戏 """
@@ -50,7 +49,6 @@ class PlaneGame:
 
             # 更新显示
             pygame.display.update()
-        pass
 
     def __screen(self, wide, height):
         """屏幕"""
