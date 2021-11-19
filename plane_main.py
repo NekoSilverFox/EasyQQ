@@ -5,16 +5,15 @@
     3. 启动游戏
 """
 import sys
-
 import pygame
-from plane_sprites import GameSprite
-from background import Background
+import background
 
 # 常量区
 WIDTH = 480
 HEIGHT = 700
 SCREEN_RECT = pygame.Rect(0, 0, WIDTH, HEIGHT)
 FRAME_PER_SEC = 60  # 每秒刷新帧率
+
 
 class PlaneGame:
     """ 用于配置及初始化游戏内容 """
@@ -50,20 +49,22 @@ class PlaneGame:
             # 更新显示
             pygame.display.update()
 
+    @property.setter
     def __screen(self, wide, height):
         """屏幕"""
 
+    @property.setter
     def __clock(self, time):
         """游戏时钟"""
 
     def __creat_sprites(self):
         """精灵创建"""
-        bg1 = Background()
-        bg2 = Background(True)
+        bg1 = background.Background()
+        bg2 = background.Background(True)
         self.back_group = pygame.sprite.Group(bg1, bg2)
 
     @classmethod
-    def __event_handler(self):
+    def __event_handler(cls):
         """事件监听"""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -71,7 +72,6 @@ class PlaneGame:
 
     def __check_collide(self):
         """碰撞检测"""
-        pass
 
     def __update_sprites(self):
         """更新精灵组"""

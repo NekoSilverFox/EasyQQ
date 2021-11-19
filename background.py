@@ -2,12 +2,11 @@
 游戏背景
 """
 
-from plane_main import GameSprite
-from plane_main import SCREEN_RECT
+import plane_main
 PATH_BACKGROUND = "./images/background.png"
 
 
-class Background(GameSprite):
+class Background(plane_main.GameSprite):
     """游戏背景精灵"""
 
     def __init__(self, is_alt=False):
@@ -23,7 +22,7 @@ class Background(GameSprite):
         super().update()
 
         # 判断图像是否移出屏幕，如果移出，重新设置到屏幕上方
-        if self.rect.y >= SCREEN_RECT.height:
+        if self.rect.y >= plane_main.SCREEN_RECT.height:
             self.rect.y = -self.rect.height
 
     def change_background(self, background):
