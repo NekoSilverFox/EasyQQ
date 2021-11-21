@@ -5,7 +5,7 @@
 </p>
 
 <div align=center>
- 
+
 [![Pylint CI](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml/badge.svg)](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
@@ -25,7 +25,7 @@
 
 ## Введение
 
-
+【待翻译】
 
 ## Характеристики
 
