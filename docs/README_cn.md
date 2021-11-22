@@ -1,14 +1,16 @@
 <p align="center">
  <img width="100px" src="https://github.com/NekoSilverFox/EasyQQ/blob/main/docs/pic/logo.svg" align="center" alt="EasyQQ" />
- <h1 align="center">EasyQQ</h2>
- <p align="center">飞机大战</p>
+ <h1 align="center">飞机大战</h2>
+ <p align="center">玩得开心！</p>
 </p>
+
 
 
 <div align=center>
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
-![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 [![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
+
 
 <p align="center">
     <a href="../README.md">Русский язык</a>
@@ -25,6 +27,8 @@
 
 
 ## 简介
+
+玩家可以通过控制自己的飞机并与敌机进行对战！
 
 
 
