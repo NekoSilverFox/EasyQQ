@@ -7,10 +7,12 @@
 
 
 <div align=center>
+
+[![Pylint CI](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml/badge.svg)](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml)
+
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 [![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
-
 
 <p align="center">
     <a href="../README.md">Русский язык</a>
