@@ -4,13 +4,13 @@
  <p align="center">玩得开心！</p>
 </p>
 
-
-
 <div align=center>
 
+[![CodeQL](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)]
 [![Pylint CI](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml/badge.svg)](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
+![project](https://img.shields.io/badge/project-SPbSTU-green)
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 [![pygame](https://img.shields.io/badge/pygame-pygame%20v2-orange)](https://www.pygame.org/news)
 
