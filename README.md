@@ -7,6 +7,7 @@
 
 <div align=center>
 
+[![CodeQL](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/codeql-analysis.yml)
 [![Pylint CI](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml/badge.svg)](https://github.com/NekoSilverFox/EasyQQ/actions/workflows/pylint.yml)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
