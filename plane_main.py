@@ -7,12 +7,7 @@
 import sys
 import pygame
 import background
-
-# 常量区
-WIDTH = 480
-HEIGHT = 700
-SCREEN_RECT = pygame.Rect(0, 0, WIDTH, HEIGHT)
-FRAME_PER_SEC = 60  # 每秒刷新帧率
+from plane_sprites import SCREEN_RECT, FRAME_PER_SEC
 
 
 class PlaneGame:
