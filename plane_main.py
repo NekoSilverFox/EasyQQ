@@ -11,9 +11,9 @@ from plane_sprites import SCREEN_RECT, FRAME_PER_SEC
 
 
 class PlaneGame:
-    """ 用于配置及初始化游戏内容 """
+    """用于配置及初始化游戏内容"""
     def __init__(self):
-        """ 初始化 """
+        """初始化"""
         print("游戏初始化...")
 
         print("设置游戏窗口中...")
@@ -26,7 +26,7 @@ class PlaneGame:
         self.__creat_sprites()
 
     def start_game(self):
-        """ 开始游戏 """
+        """开始游戏"""
         print("游戏开始...")
         while True:
             # 设置刷新帧率

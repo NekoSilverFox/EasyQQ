@@ -8,6 +8,9 @@ from plane_main import SCREEN_RECT
 
 # 英雄发射子弹时间
 HERO_FIRE_EVENT = pygame.USEREVENT + 1
+HERO_BEGIN_PLACE = 120
+INTERVAL_BULLET = 20
+BULLET_TYPE = (0, 1, 2)
 
 
 class Hero(GameSprite):
@@ -26,12 +29,12 @@ class Hero(GameSprite):
         """永雄开火（发射子弹）
         """
         print("Fire!!")
-        for i in (0, 1, 2):
+        for i in BULLET_TYPE:
             # 创建子弹精灵
             bullet = Bullet()
 
             # 设置精灵位置
-            bullet.rect.bottom = self.rect.y - i * 20
+            bullet.rect.bottom = self.rect.y - i * INTERVAL_BULLET
             bullet.rect.centerx = self.rect.centerx
 
             # 添加精灵
