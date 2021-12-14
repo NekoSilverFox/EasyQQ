@@ -7,18 +7,13 @@
 import sys
 import pygame
 import background
-
-# 常量区
-WIDTH = 480
-HEIGHT = 700
-SCREEN_RECT = pygame.Rect(0, 0, WIDTH, HEIGHT)
-FRAME_PER_SEC = 60  # 每秒刷新帧率
+from plane_sprites import SCREEN_RECT, FRAME_PER_SEC
 
 
 class PlaneGame:
-    """ 用于配置及初始化游戏内容 """
+    """用于配置及初始化游戏内容"""
     def __init__(self):
-        """ 初始化 """
+        """初始化"""
         print("游戏初始化...")
 
         print("设置游戏窗口中...")
@@ -31,7 +26,7 @@ class PlaneGame:
         self.__creat_sprites()
 
     def start_game(self):
-        """ 开始游戏 """
+        """开始游戏"""
         print("游戏开始...")
         while True:
             # 设置刷新帧率
