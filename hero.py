@@ -26,8 +26,7 @@ class Hero(GameSprite):
         self.bullets = pygame.sprite.Group()
 
     def fire(self):
-        """永雄开火（发射子弹）
-        """
+        """永雄开火（发射子弹）"""
         print("Fire!!")
         for i in BULLET_TYPE:
             # 创建子弹精灵
@@ -41,8 +40,7 @@ class Hero(GameSprite):
             self.bullets.add(bullet)
 
     def update(self):
-        """更新英雄位置
-        """
+        """更新英雄位置"""
         # 让英雄在水平方向移动
         self.rect.x += self.speed
         # 控制英雄不能移除屏幕
