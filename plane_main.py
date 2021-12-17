@@ -18,22 +18,27 @@ class PlaneGame:
     def __init__(self):
         """初始化"""
         print("游戏初始化...")
+        pygame.init()
 
         print("设置游戏窗口中...")
-        self.__screen = pygame.display.set_mode(SCREEN_RECT.size)
+        self.screen = pygame.display.set_mode(SCREEN_RECT.size)
 
         print("创建游戏时钟中...")
-        self.__clock = pygame.time.Clock()
+        self.clock = pygame.time.Clock()
 
         print("调用私有方法，创建精灵和精灵组...")
-        self.__creat_sprites()
+        self.__create_sprites()
+
+        print("设置定时器事件")
+        pygame.time.set_timer(CREATE_ENEMY_EVENT, 1000)
+        pygame.time.set_timer(HERO_FIRE_EVENT, 500)
 
     def start_game(self):
         """开始游戏"""
         print("游戏开始...")
         while True:
             # 设置刷新帧率
-            self.__clock.tick(FRAME_PER_SEC)
+            self.clock.tick(FRAME_PER_SEC)
 
             # 事件监听
             self.__event_handler()
@@ -55,7 +60,8 @@ class PlaneGame:
     def __clock(self, time):
         """游戏时钟"""
 
-    def __creat_sprites(self):
+    def __create_sprites(self):
+        """创建精灵组"""
         bg1 = Background()
         bg2 = Background(True)
         self.back_group = pygame.sprite.Group(bg1, bg2)
@@ -67,8 +73,7 @@ class PlaneGame:
         self.hero = Hero()
         self.hero_group = pygame.sprite.Group(self.hero)
 
-    @classmethod
-    def __event_handler(cls):
+    def __event_handler(self):
         """事件监听"""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -97,7 +102,7 @@ class PlaneGame:
         # 子弹摧毁敌机
         pygame.sprite.groupcollide(self.hero.bullets, self.enemy_group, True, True)
         # 敌机撞毁英雄
-        enemies =  pygame.sprite.spritecollide(self.hero, self.enemy_group, True)
+        enemies = pygame.sprite.spritecollide(self.hero, self.enemy_group, True)
         if len(enemies) != 0:
             # 英雄牺牲
             self.hero.kill()
