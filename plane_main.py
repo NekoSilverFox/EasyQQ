@@ -62,8 +62,8 @@ class PlaneGame:
 
     def __create_sprites(self):
         """创建精灵组"""
-        bg1 = Background()
-        bg2 = Background(True)
+        bg1 = background.Background()
+        bg2 = background.Background(True)
         self.back_group = pygame.sprite.Group(bg1, bg2)
 
         # 创建敌机的精灵组
