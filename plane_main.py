@@ -8,6 +8,9 @@ import sys
 import pygame
 import background
 from plane_sprites import SCREEN_RECT, FRAME_PER_SEC
+from enemy import *
+from plane_sprites import *
+from hero import *
 
 
 class PlaneGame:
@@ -104,16 +107,16 @@ class PlaneGame:
     def __update_sprites(self):
         """更新精灵组"""
         self.back_group.update()
-        self.back_group.draw(self.screen)
+        self.back_group.draw(self.__screen)
 
         self.enemy_group.update()
-        self.enemy_group.draw(self.screen)
+        self.enemy_group.draw(self.__screen)
 
         self.hero_group.update()
-        self.hero_group.draw(self.screen)
+        self.hero_group.draw(self.__screen)
 
         self.hero.bullets.update()
-        self.hero.bullets.draw(self.screen)
+        self.hero.bullets.draw(self.__screen)
 
     @staticmethod
     def __game_over():
